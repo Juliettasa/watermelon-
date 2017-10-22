@@ -1,0 +1,35 @@
+.footer {
+	background: #e9ede9;
+	
+	
+}
+
+.contetn_footer {
+	text-align: left;
+}
+
+#foot_menu {
+	box-sizing: border-box;
+	display: inline-block;
+	padding-right: 16px;
+}
+
+.a_foot {
+	padding-left: 36px;
+	color: grey;
+	
+}
+
+.rights {
+
+	color: #958f8f;
+	padding: 16px 0 102px 36px;
+}
+
+@media screen and (max-width: 560px) {
+	
+	.foot_menu {
+		display: none;
+	}
+}
+	

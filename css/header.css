@@ -1,0 +1,78 @@
+header {
+	
+	background-image: url(../img/rectangle-1-copy.png);
+	background-position: 0 50%;
+	background-size: cover;
+}
+
+.logo {
+	padding-left: 36px;
+	float: left;
+	width: 56px;
+	height: 33px
+}
+ 
+.navigation {
+	margin: 0; 
+    padding: 4px;
+}
+
+.nav-item {
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+     /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+.top_header {
+
+	padding-top: 41px;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 138px;
+
+}
+
+.text_name {
+	font-family: CrimsonText;
+    font-size: 31px;
+	display: inline-block;
+	float: left;
+	color: white;
+	margin-left: 12px;
+	/*vertical-align: middle;*/
+}
+
+.top_menu {
+	
+	display: inline-block;
+	text-align:center;
+	box-sizing: border-box;
+	float: right;
+	color: red;
+	padding-right: 36px; 
+	
+}
+
+.header_title {
+	color: white;
+	margin-bottom: 92px;
+}
+
+.watermelon {
+	width: 252px;
+	height: 213px;
+
+	margin-bottom: 106px;
+}
+
+.a_top {
+	margin: 10px;
+}
+
+
+
+@media screen and (max-width: 715px) {
+	.top_menu {
+		display: none;
+	}
+}

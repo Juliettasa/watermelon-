@@ -1,0 +1,57 @@
+.about {
+	
+	background-color: white;
+}
+
+.flavor_text {
+
+	color: #4e4e4e;
+	line-height: 50px;
+	padding: 121px 0 18px 0; 
+}
+
+.text_about_first, .text_about_second {
+
+	color: #737070;
+}
+
+.text_about_first {
+
+	margin: 18px 0 11px 0;
+}
+
+.text_about_second {
+
+	margin-bottom: 75px;
+}
+
+.watermelon_half {
+	width: 250px;
+	height: 243px;
+	margin-bottom: 119px;
+}
+
+.topbutton {
+width:50px;
+height: 50px;
+border:2px solid rgb(74, 123, 55);
+background-color: rgb(130, 181, 77);
+text-align:center;
+position:fixed;
+bottom:50px;
+right:50px;
+line-height: 82px;
+cursor:pointer;
+color:#333;
+font-family: CrimsonText;
+
+border-radius: 25px;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+-khtml-border-radius: 25px;
+}
+.content_button_totop {
+	margin: 0 auto;
+	font-size: 50px;
+	color: rgb(74, 123, 55);
+}

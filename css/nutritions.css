@@ -1,0 +1,116 @@
+.pure_health {
+	background-color: #2b342b;
+	background-image: url('../pic/11-layers.png');
+	background-repeat: no-repeat; 
+	background-position: 50% 75% ;
+}
+
+.text_nutritions {
+	color: white;
+}
+
+.first {
+	padding:  101px 0 26px 0;
+}
+
+.second {
+	margin-bottom: 377px;
+}
+
+.fruit {
+	
+	
+}
+
+.fruit {
+	margin: 0 auto;
+	
+}
+.circle_first {
+	
+	width: 34px;
+	height: 34px;
+
+}
+
+
+
+.structure {
+	width: 279px;
+	height: 230px;
+	padding-bottom: 102px;
+	
+	margin: 0 auto;
+}
+
+.text_line_all {
+	display: inline-block;
+	position: relative;
+}
+.line_f {
+
+	top: -191px;
+    right: 98px;
+
+}
+
+.line_s {
+	   
+	bottom: 109px;
+    right: 112px;
+
+}
+
+.line_th {
+	left: 194px;
+    bottom: 280px;
+}
+
+
+.line_fourth {
+	bottom: 166px;
+    left: 41px;
+}
+
+@media screen and (max-width: 630px) {
+
+	.pure_health {
+		background-image: none;
+		background-image: url('../pic/fruit1.png');
+		background-position: 50% 60% ;
+	}
+
+	.second {
+		margin-bottom: 300px;
+	}
+
+	.line_th, .line_f,.line_fourth, .line_s {
+		padding: 5px;
+	}
+
+	.line_th {
+    left: 0;
+    bottom: 0;
+     }
+
+    .line_f {
+    	top: 0;
+    	right: 0;
+
+    }
+
+    .line_fourth {
+    bottom: 0;
+    left: 0;
+}
+
+    .line_s {
+    bottom: 0;
+    right: 0;
+}
+.text_line_all {
+  display: block;
+}
+
+
+	}
