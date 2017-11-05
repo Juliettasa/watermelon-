@@ -72,10 +72,3 @@
 	background-color: #71ae5a;
 }
 
-@media screen and (max-width: 360px) {
-	.window_table {
-		width: 250px;
-		height: 255px;
-	}
-		
-}

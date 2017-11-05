@@ -17,12 +17,7 @@ header {
     padding: 4px;
 }
 
-.nav-item {
-	display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-     /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
-}
+
 .top_header {
 
 	padding-top: 41px;
@@ -42,16 +37,17 @@ header {
 	/*vertical-align: middle;*/
 }
 
-.top_menu {
+
+.text__anchor  {
 	
 	display: inline-block;
 	text-align:center;
 	box-sizing: border-box;
 	float: right;
-	color: red;
-	padding-right: 36px; 
-	
+	color: white;
+	font-family: "Raleway Bold";
 }
+
 
 .header_title {
 	color: white;
@@ -71,8 +67,3 @@ header {
 
 
 
-@media screen and (max-width: 715px) {
-	.top_menu {
-		display: none;
-	}
-}

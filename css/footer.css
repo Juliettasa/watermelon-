@@ -26,10 +26,3 @@
 	padding: 16px 0 102px 36px;
 }
 
-@media screen and (max-width: 560px) {
-	
-	.foot_menu {
-		display: none;
-	}
-}
-	

@@ -8,6 +8,8 @@ body {
 	display: block;
 }
 
+
+
 .container_main {
 	max-width: 1010px;
 	margin: 0 auto;
@@ -32,6 +34,10 @@ body {
 	font-family: CrimsonText Italic;
 	
 }
+
+ a {
+    text-decoration: none;
+	}
 
 .main_text_table {
 	font-size: 33px;

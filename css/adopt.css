@@ -1,0 +1,142 @@
+@media screen and (min-width: 760px) {
+	.name_menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.window_table {
+		width: 250px;
+		height: 255px;
+	}
+		
+}
+@media screen and (max-width: 560px) {
+	
+	.foot_menu {
+		display: none;
+	}
+}
+	
+
+@media screen and (max-width: 715px) {
+	.top_menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 630px) {
+
+	.pure_health {
+		background-image: none;
+		background-image: url('../pic/fruit1.png');
+		background-position: 50% 60% ;
+	}
+
+	.second {
+		margin-bottom: 300px;
+	}
+
+	.line_th, .line_f,.line_fourth, .line_s {
+		padding: 5px;
+	}
+
+	.line_th {
+    left: 0;
+    bottom: 0;
+     }
+
+    .line_f {
+    	top: 0;
+    	right: 0;
+
+    }
+
+    .line_fourth {
+    bottom: 0;
+    left: 0;
+}
+
+    .line_s {
+    bottom: 0;
+    right: 0;
+}
+.text_line_all {
+  display: block;
+}
+
+
+	}
+
+
+@media screen and (max-width: 760px) {
+		
+	.topbutton {
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+	}
+
+	.content_button_totop {
+		font-size: 60px;
+	}
+
+	
+	
+
+
+.text__anchor {
+
+	margin-right: 10px;
+
+}
+
+.text__anchor:hover {
+	border-bottom: 3px solid #f15657;
+	transition: .4s;
+}
+.text__anchor .list_top   {
+   
+    color: #FFF;
+    padding: 10px; 
+    display: block;
+
+    transition: .7s all;
+}
+
+ .list_top:hover {
+    
+    padding: 10px 0 10px 20px;
+    text-decoration: underline;
+	color: #f15657;
+}
+
+.name_menu {
+    position: relative;
+}
+.menu_drop {
+    position: absolute;
+  
+    top: -9999em;
+    opacity: 0;
+
+    
+}
+
+.text__anchor:hover .menu_drop {
+    opacity: 1;
+    right: 9%;
+    top: 8%;
+   
+}
+.menu_drop {
+	font-size: 14px;
+
+    
+
+}
+
+.menu_drop:hover {
+
+}
+}
